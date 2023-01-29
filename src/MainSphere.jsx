@@ -22,7 +22,7 @@ const MainSphere = ({ material }) => {
   });
 
   return (
-    <Float>
+    <Float floatingRange={[-0.5, 0.5]}>
       <Icosahedron
         args={[1, 16]}
         ref={main}
